@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "smoke_task_1",
+      "setup": "",
+      "run": "cmake . && make task-1-test && ./task-1-test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "smoke_task_2",
+      "setup": "",
+      "run": "cmake . && make json-parser task-2-test && ./task-2-test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    },
+    {
+      "name": "smoke_task_3",
+      "setup": "",
+      "run": "cmake . && make task-3-test && ./task-3-test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
